@@ -1,1 +1,31 @@
-{"subject":"acct:davidswords@mastodon.social","aliases":["https://mastodon.social/@davidswords","https://mastodon.social/ap/users/117325827706254733"],"links":[{"rel":"http://webfinger.net/rel/profile-page","type":"text/html","href":"https://mastodon.social/@davidswords"},{"rel":"self","type":"application/activity+json","href":"https://mastodon.social/ap/users/117325827706254733"},{"rel":"http://ostatus.org/schema/1.0/subscribe","template":"https://mastodon.social/authorize_interaction?uri={uri}"},{"rel":"https://w3id.org/fep/3b86/Create","template":"https://mastodon.social/share?text={content}"},{"rel":"https://w3id.org/fep/3b86/Object","template":"https://mastodon.social/authorize_interaction?uri={object}"}]}
+{
+  "subject": "acct:david@swords.engineering",
+  "aliases": [
+    "https://mastodon.social/@davidswords",
+    "https://mastodon.social/ap/users/117325827706254733"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mastodon.social/@davidswords"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mastodon.social/ap/users/117325827706254733"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mastodon.social/authorize_interaction?uri={uri}"
+    },
+    {
+      "rel": "https://w3id.org/fep/3b86/Create",
+      "template": "https://mastodon.social/share?text={content}"
+    },
+    {
+      "rel": "https://w3id.org/fep/3b86/Object",
+      "template": "https://mastodon.social/authorize_interaction?uri={object}"
+    }
+  ]
+}
