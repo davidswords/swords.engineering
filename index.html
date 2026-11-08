@@ -4,58 +4,48 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>swords.engineering</title>
-  <meta name="description" content="swords.engineering">
   <style>
-    :root {
-      --bg: #0d1117;
-      --fg: #c9d1d9;
-      --dim: #8b949e;
-      --accent: #58a6ff;
-      --line: #21262d;
+    .columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body { height: 100%; }
-    body {
-      background: var(--bg);
-      color: var(--fg);
-      font-family: ui-monospace, "Cascadia Code", "JetBrains Mono", Menlo, Consolas, monospace;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    main { padding: 2rem; max-width: 40rem; }
-    h1 {
-      font-size: clamp(1.4rem, 4vw, 2rem);
-      font-weight: 600;
-      letter-spacing: 0.04em;
-    }
-    h1::before { content: "🗡 "; }
-    hr {
-      border: 0;
-      border-top: 1px solid var(--line);
-      margin: 1.5rem auto;
-      width: 8rem;
-    }
-    p { color: var(--dim); font-size: 0.95rem; line-height: 1.7; }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    footer {
-      position: fixed;
-      bottom: 1rem;
-      left: 0; right: 0;
-      font-size: 0.75rem;
-      color: var(--dim);
-      opacity: 0.6;
+
+    @media (max-width: 700px) {
+      .columns {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
-  <main>
-    <h1>swords.engineering</h1>
-    <hr>
-    <p>Nothing here yet.<br>Something is being forged.</p>
+  <header>
+    <h1>David Swords</h1>
+    <p>A software engineer and researcher of various things...</p>
+  </header>
+  <main class="columns">
+    <div>
+      <section>
+        <h2>blog posts</h2>
+      </section>
+      <section>
+        <h2>favourite blogs</h2>
+      </section>
+      <section>
+        <h2>favourite books</h2>
+      </section>
+    </div>
+    <div>
+      <section>
+        <h2>projects</h2>
+      </section>
+      <section>
+        <h2>papers</h2>
+      </section>
+      <section>
+        <h2>conferences</h2>
+      </section>
+    </div>
   </main>
-  <footer>swords.engineering</footer>
 </body>
 </html>
